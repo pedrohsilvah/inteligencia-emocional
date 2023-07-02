@@ -1,11 +1,69 @@
 @charset "UTF-8";
 
+/* fonte do h2 */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+
+/* fonte do h1 */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Caprasimo&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-    weight: 1.1em;
+:root {
+    --cor01: #0D1321;
+    --cor02: #468189;
+    --cor03: #9FFCDF;
+    --cor04: #F6F740;
+    --cor05: #B24C63;
+
+    --font-h2: 'Belanosima', sans-serif;
+    --font-h1: 'Caprasimo', cursive;
+}
+body {
+    background-color: var(--cor01);
+}
+
+header {
+    background-color: var(--cor02);
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--font-h1);
+}
+
+main {
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: var(--cor05);
+}
+
+h2 {
+    font-family: var(--font-h2);
+    padding: 10px;
+}
+
+main > p {
+    margin: 10px;
+}
+
+main > section > p {
+    margin: 10px;
+}
+
+div#mapa {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: var(--cor02);
+    padding: 10px;
+    text-align: center;
 }
