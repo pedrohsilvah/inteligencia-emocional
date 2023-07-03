@@ -6,6 +6,9 @@
 /* fonte do h1 */
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Caprasimo&display=swap');
 
+/* fonte do paragrafo */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Belanosima:wght@400;600;700&family=Caprasimo&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -21,14 +24,16 @@
 
     --font-h2: 'Belanosima', sans-serif;
     --font-h1: 'Caprasimo', cursive;
+    --font-p: 'ABeeZee', sans-serif;
 }
 body {
     background-color: var(--cor01);
 }
 
 header {
-    background-color: var(--cor02);
+    background-image: linear-gradient(to top, white, var(--cor03), var(--cor02));
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -40,30 +45,59 @@ main {
     margin-top: 0px;
     margin-left: 15px;
     margin-right: 15px;
-    background-color: var(--cor05);
+    border-radius: 5px;
+    background-color: var(--cor02);
+    color: white;
+    font-size: 1em;
+    line-height: 2em;
+
 }
 
 h2 {
     font-family: var(--font-h2);
     padding: 10px;
+    color: var(--cor02);
+}
+
+main > h2 {
+    color: var(--cor01);
+}
+
+section > h2 {
+    color: var(--cor01);
 }
 
 main > p {
     margin: 10px;
+    letter-spacing: 1px;
+}
+
+section#sectionmapa {
+    color: var(--cor03);
+    background-color: var(--cor01);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+section#sectionmapa > h2{
+    color: var(--cor02);
 }
 
 main > section > p {
     margin: 10px;
+    letter-spacing: 1px;
 }
 
 div#mapa {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 10px;
 }
 
 footer {
     background-color: var(--cor02);
     padding: 10px;
+    margin-top: 10px;
     text-align: center;
+    background-image: linear-gradient(to bottom, white, var(--cor03), var(--cor02));
 }
