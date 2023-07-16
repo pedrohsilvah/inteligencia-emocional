@@ -80,6 +80,18 @@ main > h2 {
     border-radius: 5px; */
 }
 
+div#audio {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor02);
+    margin-bottom: 30px;
+}
+
+div#audio > iframe {
+    height: 150px;
+    width: 300px;
+}
+
 section > h2 {
     color: var(--cor01);
 }
