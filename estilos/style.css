@@ -44,7 +44,7 @@ header > img {
 
 h1 {
     text-align: center;
-    font-family: var(--font-h1);
+    font-family: var(--font-h1); 
 }
 
 main {
@@ -60,6 +60,14 @@ main {
 
 }
 
+main  a {
+    text-decoration: none;
+    color: var(--cor01);
+    background-color: var(--cor03);
+    border-radius: 2px;
+    padding: 1px;
+}
+
 h2 {
     font-family: var(--font-h2);
     padding: 10px;
@@ -68,6 +76,8 @@ h2 {
 
 main > h2 {
     color: var(--cor01);
+    /* (para degradê no h2 do main) background-image: linear-gradient(to left, var(--cor02), rgba(255, 255, 255, 0.452), var(--cor03), var(--cor02));
+    border-radius: 5px; */
 }
 
 section > h2 {
@@ -81,6 +91,27 @@ div > h3 {
 main > p {
     margin: 10px;
     letter-spacing: 1px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor03);
+    background-color: var(--cor01);
+    transition: 1.3s;
+}
+
+article {
+    padding: 10px;
+}
+
+article > h3 {
+    text-align: center;
+    color: var(--cor04);
+}
+
+article > p {
+    text-align: center;
+    color: var(--cor03);
 }
 
 section#sectionmapa {
@@ -113,4 +144,17 @@ footer {
     margin-top: 10px;
     text-align: center;
     background-image: linear-gradient(to bottom, white, var(--cor03), var(--cor02));
+}
+
+footer a {
+    color: var(--cor01);
+    background-color: var(--cor03);
+    border-radius: 2px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor03);
+    background-color: var(--cor01);
+    transition: 1.3s;
 }
