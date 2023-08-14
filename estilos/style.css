@@ -105,7 +105,7 @@ main > p {
     letter-spacing: 1px;
 }
 
-main a:hover{
+main a:hover {
     text-decoration: underline;
     color: var(--cor03);
     background-color: var(--cor01);
@@ -133,7 +133,7 @@ section#sectionmapa {
     margin: 15px;
 }
 
-section#sectionmapa > h2{
+section#sectionmapa > h2 {
     color: var(--cor02);
 }
 
@@ -164,7 +164,7 @@ footer a {
     border-radius: 2px;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: underline;
     color: var(--cor03);
     background-color: var(--cor01);
