@@ -26,6 +26,22 @@
     --font-h1: 'Caprasimo', cursive;
     --font-p: 'ABeeZee', sans-serif;
 }
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    padding: 5px;
+    width: 50px; 
+    font-size: 25px;
+    background-color: var(--cor01);
+    color: var(--cor03);
+    border: none;
+    border-radius: 50px;
+}
+
 body {
     background-color: var(--cor01);
 }
