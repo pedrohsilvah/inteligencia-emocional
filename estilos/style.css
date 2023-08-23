@@ -76,6 +76,10 @@ main {
 
 }
 
+strong {
+    color: var(--cor03);
+}
+
 main  a {
     text-decoration: none;
     color: var(--cor01);
@@ -106,6 +110,12 @@ div#audio {
 div#audio > iframe {
     height: 150px;
     width: 300px;
+    border-radius: 10px;
+}
+
+.img-man {
+    margin: auto;
+    max-width: 70%;
 }
 
 section > h2 {
