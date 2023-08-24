@@ -152,14 +152,14 @@ article > p {
     color: var(--cor03);
 }
 
-section#sectionmapa {
+section#sectionvideo {
     color: var(--cor03);
     background-color: var(--cor01);
     border-radius: 5px;
     margin: 15px;
 }
 
-section#sectionmapa > h2 {
+section#sectionvideo > h2 {
     color: var(--cor02);
 }
 
@@ -168,9 +168,10 @@ main > section > p {
     letter-spacing: 1px;
 }
 
-div#mapa {
+#video {
     display: flex;
     justify-content: center;
+    width: 100%;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
