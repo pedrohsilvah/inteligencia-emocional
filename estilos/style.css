@@ -152,6 +152,16 @@ article > p {
     color: var(--cor03);
 }
 
+/* altera o fundo de imagem dos 5 pilares da inteligancia emocional*/
+#img-fundo {
+    margin: 10px;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 0.664)), url("../imagens/img08.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
 section#sectionvideo {
     color: var(--cor03);
     background-color: var(--cor01);
