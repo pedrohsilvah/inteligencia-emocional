@@ -162,6 +162,10 @@ article > p {
     border-radius: 5px;
 }
 
+#link-formulario {
+    text-align: center;
+}
+
 section#sectionvideo {
     color: var(--cor03);
     background-color: var(--cor01);
